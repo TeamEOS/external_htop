@@ -249,7 +249,7 @@ int main(int argc, char** argv) {
    int delay = -1;
    bool userOnly = false;
    uid_t userId = 0;
-   int usecolors = 1;
+   int usecolors = 0;
 
    int opt, opti=0;
    static struct option long_opts[] =
